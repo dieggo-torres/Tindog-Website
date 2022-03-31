@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap');
+
+#title a.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 3rem;
+  line-height: 1.6;
+  font-weight: 900;
+}
