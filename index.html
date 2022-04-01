@@ -13,10 +13,16 @@
   
     <!-- Criador -->
     <meta name="author" content="Diego Moura Torres">
+
+    <!-- Palavras-chaves -->
+    <meta name="keywords" content="encontro de cachorros, relacionamento de cachorros">
   
     <!-- Link para o CDN do Bootstrap v5.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     
+    <!-- Link para CDN dos ícones do Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Link para a folha de estilos -->
     <link rel="stylesheet" href="css/styles.css">
 
@@ -27,40 +33,41 @@
 
     <section id="title">
 
-      <!-- Barra de Navegação -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-          <a href="#" class="navbar-brand">tindog</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sobre</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
-              </li>
-            </ul>
+      <div class="container-fluid">
+
+        <!-- Barra de Navegação -->
+        <nav class="navbar navbar-expand-lg navbar-dark mb-2">
+          <div class="container-fluid">
+            <a href="#" class="navbar-brand">tindog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> 
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">Sobre</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">Contato</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
 
-
-
-      <!-- Título -->
-      <div class="row">
-        <div class="col-lg-6">
-          <h1>Descubra cachorros novos e interessantes nas proximidades.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
-        </div>
-        <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+        <!-- Título -->
+        <div class="row">
+          <div class="col-lg-6">
+            <h1>Conheça cães novos nas proximidades.</h1>
+            <button class="btn btn-dark btn-lg mt-3" type="button"><i class="fa-brands fa-apple"></i> Download</button>
+            <button class="btn btn-outline-light btn-lg mt-3 ms-4" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
+          </div>
+          <div class="col-lg-6">
+            <img src="images/iphone6.png" alt="iphone-mockup">
+          </div>
         </div>
       </div>
 
@@ -71,15 +78,26 @@
 
     <section id="features">
 
-      <h3>Fácil de usar.</h3>
-      <p>Tão fácil de usar que até seu cãozinho poderia fazer isso.</p>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 text-center"> 
+          <i class="fa-solid fa-circle-check mb-3"></i>
+          <h3>Fácil de usar.</h3>
+          <p>Tão fácil de usar que até seu cãozinho poderia fazer isso.</p>
+        </div>
 
-      <h3>Clientela de Elite</h3>
-      <p>Nós temos todos os cachorros, os melhores cachorros.</p>
+        <div class="col-lg-4 col-md-12 text-center">
+          <i class="fa-solid fa-bullseye mb-3"></i>
+          <h3>Clientela de Elite</h3>
+          <p>Nós temos todos os cachorros, os melhores cachorros.</p>
+        </div>
 
-      <h3>Funcionamento Garantido</h3>
-      <p>Encontre o amor da vida de seu cachorro ou seu dinheiro de volta.</p>
+        <div class="col-lg-4 col-md-12 text-center">
+          <i class="fa-solid fa-heart mb-3"></i>
+          <h3>Funcionamento Garantido</h3>
+          <p>Encontre o amor da vida de seu cachorro ou seu dinheiro de volta.</p>
+        </div>
 
+      </div>
     </section>
 
 
@@ -149,8 +167,8 @@
     <section id="cta">
 
       <h3>Encontre o Verdadeiro Amor da Vida de Seu Cachorrinho Hoje.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+      <button class="btn btn-dark btn-lg" type="button"><i class="fa-brands fa-apple"></i> Download</button>
+      <button class="btn btn-outline-light btn-lg" type="button"><i class="fa-brands fa-google-play"></i> Download</button>
 
     </section>
 
