@@ -10,3 +10,7 @@ h1 {
   line-height: 1.6;
   font-weight: 900;
 }
+
+section:nth-of-type(odd) {
+  background-color: #ff4c68;
+}
