@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
     <!-- Descrição do site -->
-    <meta name="description" content="Tindog lhe ajuda a encontrar o verdadeiro amor da vida de seu cachorrinho hoje.">
+    <meta name="description" content="Com Tindog você encontra hoje o verdadeiro amor da vida de seu cachorrinho.">
   
     <!-- Criador -->
     <meta name="author" content="Diego Moura Torres">
@@ -69,6 +69,7 @@
             <img src="images/iphone6.png" alt="iphone-mockup">
           </div>
         </div>
+        
       </div>
 
     </section>
@@ -80,84 +81,120 @@
 
       <div class="row">
         <div class="col-lg-4 col-md-12 text-center"> 
-          <i class="fa-solid fa-circle-check mb-3"></i>
-          <h3>Fácil de usar.</h3>
+          <i class="fa-solid fa-circle-check fa-4x mb-3"></i>
+          <h3>Fácil de usar</h3>
           <p>Tão fácil de usar que até seu cãozinho poderia fazer isso.</p>
         </div>
 
         <div class="col-lg-4 col-md-12 text-center">
-          <i class="fa-solid fa-bullseye mb-3"></i>
+          <i class="fa-solid fa-bullseye fa-4x mb-3"></i>
           <h3>Clientela de Elite</h3>
           <p>Nós temos todos os cachorros, os melhores cachorros.</p>
         </div>
 
         <div class="col-lg-4 col-md-12 text-center">
-          <i class="fa-solid fa-heart mb-3"></i>
-          <h3>Funcionamento Garantido</h3>
+          <i class="fa-solid fa-heart fa-4x mb-3"></i>
+          <h3>Garantido</h3>
           <p>Encontre o amor da vida de seu cachorro ou seu dinheiro de volta.</p>
         </div>
-
       </div>
+
     </section>
 
 
-    <!-- Depoimentos -->
+    <!-- Depoimentos Carrosel -->
 
-    <section id="testimonials">
+    <section id="testimonials" class="text-center">
 
-      <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-      <img src="images/dog-img.jpg" alt="dog-profile">
-      <em>Pebbles, New York</em>
-
-      <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-      <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-      <em>Beverly, Illinois</em> -->
+      <!-- Carrosel -->
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+            <img class="rounded-circle m-3" src="images/dog-img.jpg" alt="dog-profile">
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+            <img class="rounded-circle m-3" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
 
     </section>
 
 
     <!-- Imprensa -->
 
-    <section id="press">
-      <img src="images/techcrunch.png" alt="tc-logo">
-      <img src="images/tnw.png" alt="tnw-logo">
-      <img src="images/bizinsider.png" alt="biz-insider-logo">
-      <img src="images/mashable.png" alt="mashable-logo">
+    <section id="press" class="text-center pb-5">
+      
+      <img class="press-logo m-3" src="images/techcrunch.png" alt="tc-logo">
+      <img class="press-logo m-3" src="images/tnw.png" alt="tnw-logo">
+      <img class="press-logo m-3" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img class="press-logo m-3" src="images/mashable.png" alt="mashable-logo">
 
     </section>
 
 
     <!-- Pricing -->
 
-    <section id="pricing">
+    <section id="pricing" class="text-center">
 
-      <h2>Um Plano para as Necessidades de Cada Cachorro</h2>
+      <h2>Um Plano Para as Necessidades de Cada Cachorro</h2>
       <p>Planos simples e acessíveis para você e seu cachorro.</p>
 
+      <div class="container mt-4">
+        <div class="row g-3">
+          <div class="col-lg-4 col-md-6">
+            <div class="card text-center h-100">
+              <h3 class="card-header">Chihuahua</h3>
+              <div class="card-body">
+                <h2>Grátis</h2>
+                <p>5 Matches por Dia</p>
+                <p>10 Mensagens por Dia</p>
+                <p>Uso Ilimitado do App</p>
+                <button class="btn btn-outline-primary d-block mx-auto w-100" type="button">Inscreva-se</button>
+              </div>
+            </div>
+          </div>
 
-      <h3>Chihuahua</h3>
-      <h2>Grátis</h2>
-      <p>5 Matches por Dia</p>
-      <p>10 Mensagens por DiaMessages Per Day</p>
-      <p>Uso Ilimitado do App</p>
-      <button type="button">Inscreva-se</button>
+          <div class="col-lg-4 col-md-6">
+            <div class="card text-center h-100">
+              <h3 class="card-header">Labrador</h3>
+              <div class="card-body">
+                <h2>R$ 20 / mês</h2>
+                <p>Matches Ilimitados</p>
+                <p>Mensagens Ilimitadas</p>
+                <p>Uso Ilimitado do App</p>
+                <button class="btn btn-primary d-block mx-auto w-100" type="button">Inscreva-se</button>
+              </div>
+            </div>
+          </div>
 
+          <div class="col-lg-4 col-md-12">
+            <div class="card text-center h-100">
+              <h3 class="card-header">Mastiff</h3>
+              <div class="card-body">
+                <h2>R$ 50 / mês</h2>
+                <p>Listagem Priorizada</p>
+                <p>Matches Ilimitados</p>
+                <p>Mensagens Ilimitadas</p>
+                <p>Uso Ilimitado do App</p>
+                <button class="btn btn-primary d-block mx-auto w-100" type="button">Inscreva-se</button>
+              </div>
+            </div>
+          </div>
+          
+        </div>
 
-      <h3>Labrador</h3>
-      <h2>R$ 20 / mês</h2>
-      <p>Matches Ilimitados</p>
-      <p>Mensagens Ilimitadas</p>
-      <p>Uso Ilimitado do App</p>
-      <button type="button">Inscreva-se</button>
-
-
-      <h3>Mastiff</h3>
-      <h2>R$ 50 / mês</h2>
-      <p>Listagem Priorizada</p>
-      <p>Matches Ilimitados</p>
-      <p>Mensagens Ilimitadas</p>
-      <p>Uso Ilimitado do App</p>
-      <button type="button">Inscreva-se</button>
+      </div>
 
     </section>
 

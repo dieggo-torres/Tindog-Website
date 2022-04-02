@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap');
 
+/* Variáveis */
+:root {
+  --cor-principal: #ff4c68;
+  --cor-secundaria: #ef8172;
+}
+
+/* Global */
 body {
   font-family: Montserrat, sans-serif;
+}
+
+/* Seção de Título */
+#title {
+  background-color: var(--cor-principal);
 }
 
 #title a.navbar-brand {
@@ -15,10 +27,6 @@ h1 {
   line-height: 1.6;
   font-weight: 900;
   color: #fff;
-}
-
-section:nth-of-type(odd) {
-  background-color: #ff4c68;
 }
 
 .container-fluid .row {
@@ -36,13 +44,17 @@ section:nth-of-type(odd) {
   color: #fff;
 }
 
+/* Seção de Funcionalidades */
+#features {
+  padding: 7% 15%;
+}
+
 #features i {
-  color: #ef8172;
-  font-size: 40px;
+  color: var(--cor-secundaria);
 }
 
 #features i:hover {
-  color: #ff4c68;
+  color: var(--cor-principal);
 }
 
 #features h3 {
@@ -54,7 +66,41 @@ section:nth-of-type(odd) {
   color: #8f8f8f;
 }
 
-#features .row {
-  padding: 10% 10%;
+/* Seção de Depoimentos */
+
+#testimonials {
+  background-color: var(--cor-secundaria);
+  color: #fff;
 }
 
+#testimonials h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#testimonials img {
+  width: 10%;
+}
+
+#testimonials .carousel-item {
+  padding: 7% 15%;
+}
+
+/* Seção de Imprensa/Créditos */
+#press {
+  background-color: var(--cor-secundaria);
+}
+
+#press .press-logo {
+  width: 15%;
+}
+
+/* Seção de Preços */
+#pricing {
+  padding: 7% 15%;
+}
+
+#pricing > h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
