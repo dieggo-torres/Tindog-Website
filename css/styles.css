@@ -30,12 +30,14 @@ h1 {
 }
 
 .container-fluid .row {
+  height: 100vh;
   padding: 3% 10%;
 }
 
 #title .row img {
   transform: rotate(25deg);
   width: 60%;
+  position: relative;
 }
 
 .navbar .nav-item a.nav-link {
@@ -46,7 +48,9 @@ h1 {
 
 /* Seção de Funcionalidades */
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
 }
 
 #features i {
