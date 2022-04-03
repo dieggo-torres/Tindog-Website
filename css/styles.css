@@ -104,9 +104,28 @@ h1 {
   padding: 7% 15%;
 }
 
-#pricing > h2 {
+#pricing > h2,
+#cta h3 {
   font-size: 3rem;
   font-weight: 600;
+}
+
+#cta {
+  text-align: center;
+  background-color: var(--cor-principal);
+  color: #fff;
+  padding: 7% 15%;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+#footer .icons .footer-icons {
+  font-size: 24px;
+  color: #000;
 }
 
 /* Media Queries */
@@ -118,7 +137,7 @@ h1 {
 
   #title .row img {
     transform: rotate(0deg);
-    margin-top: 100px;
+    margin-top: 5%;
   }
 
   #features {
