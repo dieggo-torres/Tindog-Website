@@ -30,7 +30,7 @@ h1 {
 }
 
 .container-fluid .row {
-  height: 100vh;
+  /* height: 100vh; */
   padding: 3% 10%;
 }
 
@@ -107,4 +107,21 @@ h1 {
 #pricing > h2 {
   font-size: 3rem;
   font-weight: 600;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  #title {
+    position: static;
+    text-align: center;
+  }
+
+  #title .row img {
+    transform: rotate(0deg);
+    margin-top: 100px;
+  }
+
+  #features {
+    position: static;
+  }
 }
