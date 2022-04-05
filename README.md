@@ -1,7 +1,7 @@
 # [Intermediário] Tindog
 
 Este web site de página única foi desenvolvido como projeto do módulo de Bootstrap do
-Curso [https://www.udemy.com/course/100-days-of-code/'](100 Days of Code: The Complete Pytho Pro Bootcamp for 2022) da instrutora Angela Yu. Trata-se de uma landing page para uma startup imaginária que lançou um aplicativo, Tindog, para relacionamento de animais de estimação.
+Curso [100 Days of Code: The Complete Pytho Pro Bootcamp for 2022](https://www.udemy.com/course/100-days-of-code/) da instrutora Angela Yu. Trata-se de uma landing page para uma startup imaginária que lançou um aplicativo, Tindog, para relacionamento de animais de estimação.
 
 No curso, o site foi contruído com Bootstrap v4.0. Eu, porém, decidi usar Bootstrap v5.1.
 
