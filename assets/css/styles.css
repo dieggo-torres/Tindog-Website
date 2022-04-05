@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu:wght@300;400;700&display=swap');
+
+/* Variáveis */
+:root {
+  --cor-principal: #ff4c68;
+  --cor-secundaria: #ef8172;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+#menu,
+#cta {
+  background-color: var(--cor-principal);
+}
+
+#features,
+#pricing {
+  background-color: #fff;
+}
+
+#press {
+  background-color: var(--cor-secundaria);
+}
+
+#menu a.navbar-brand {
+  font-family: Ubuntu, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+#menu {
+  position: relative;
+}
+
+#menu .img-header {
+  width: 50%;
+  transform: rotate(25deg);
+}
+
+#features {
+  padding: 10% 15%;
+  position: relative;
+}
+
+#features .feature-icon {
+  color: var(--cor-principal);
+}
+
+#features .feature-icon:hover {
+  color: #ef8172;
+}
+
+#testimonials {
+  background-color: var(--cor-secundaria);
+}
+
+#testimonials #testimonial-carousel img {
+  width: 10%;
+}
+
+@media (max-width: 1140px) {
+  #menu .img-header {
+    transform: rotate(0deg);
+  }
+}
